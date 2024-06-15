@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta de Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Roleta de Sorteio</h1>
+        <form id="opcao-form">
+            <input type="text" id="nova-opcao" placeholder="Adicionar nova opção" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <canvas id="roleta" width="500" height="500"></canvas>
+        <button id="girar">Girar</button>
+        <button id="limpar">Limpar Opções</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
